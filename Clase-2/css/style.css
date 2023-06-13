@@ -1,0 +1,53 @@
+/* selector universal - formatea los valores predeterminados del buscador */
+*{
+    /* Que no tenga margen ni relleno */
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    /* Agregamos los estilos que queremos para body */
+    /* propiedad: valor; */
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+/* Estilos a la sección principal */
+.div-container{
+    background-color: chocolate;
+    /* Dar altura al contenedor */
+    /* height: 900px; */
+    padding: 10px;
+}
+
+.div-hijo{
+    background-color: deeppink;
+    /* height: 400px; */
+    padding: 5px;
+    /* Margen entre cada uno de los div */
+    margin: 5px;
+    /* Ancho */
+    width: 25%;
+    /* Borde a cada div-hijo */
+    border: 1px solid black;
+    /* Centrado */
+    text-align: center;
+    /* Dar un radio a las esquinas del cuadrado */
+    border-radius: 10px;
+    /* Distintos tipos de tipografia de otra fuente */
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* Herencia (queremos que los parrafos sean color negro)*/
+.div-container > .div-hijo p{
+    color: black;
+    font-size: large;
+}

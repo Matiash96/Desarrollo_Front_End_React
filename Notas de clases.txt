@@ -1,0 +1,80 @@
+tres divisiones:
+Desarrollo web con html css
+Desarrollo web con html css y java
+desarrollo web con react
+
+tres examenes-uno por cada modulo
+Los examenes son en codigo
+Hacer todos los examenes de alumni
+
+Un proyecto por clase, no hace falta entregar los proyectos por clases
+
+Javascript es un lenguaje interpretado
+
+Primera clase
+¿Que es HTML?
+HTML es un lenguaje hipermarcado que utiliza tags o etuiquetas, es un lenguaje interpretado.
+Es la manera en que se estructuran todos los navegadores
+
+Buscar quien es Tim ... para la proxima clase
+Es el creador de HTML y creador del protocolo HTTP 
+
+Que es la w3c?
+Si no se respetan los estandar se bajan los dominios
+
+que son los dominios?
+Son identificacion, nombre de dominio se contrata en diferentes proveedores.
+Existen diferenetes tipo de extensiones
+Al momento de registrar el dominio, chequear que no exista el nombre del dominio
+El dominio se paga al momento de registrar y al momento de renovar el contrato
+
+Navegando por la web
+protocolo -> es la regla en que se van a comunicar cada uno de los sitios web en internet
+www -> 
+
+que es un Servidor -> Lugar donde se guarda la información
+
+visual - Extension: Material Icon Theme
+
+index.html -> es el archivo que buscan por defectos los servidores para ejecutar el programa
+
+Los archivos se manejan bajo estructura basica de HTML 
+Es la forma predeterminada en que se ba a estructurar un sitio
+
+nick es el registro del dominio en argentina
+
+Etiquetas semanticas -> Da una estructura en html
+
+Tipos de productos web
+1. Página web -> Esto es un producto web constituido por un solo documento HTLM
+2. Sitio web -> Múltiples documentos HTML unidos entre si
+3. Aplicacion web -> Sitio web de un solo HTML, tambien conocido como SPA (Single Page Aplication),pero con base de datos por ejemplo, + login y logout, + backend, + registro de usuarios
+
+etiqueta de estilos -> podemos hacer las letras en negrita
+
+Realizar la conexion de style.css -> por clase o por elemento
+
+
+Clase 12/06/23 
+Git es un software de control de versiones
+Configurar Git:
+configurar nombre: git config --global user.name "Nombre_de_usuario"
+consultar nombre: git config user.name
+Agregar mail: git config --global user.email "mail"
+consultar email:  git config user.email
+consultar mail y nombre: git config --list (ver en las ultimas lineas)
+
+Manual de git: git help config 
+
+Cada vez que se inicia un proyecto, hay que iniciar el software de control de versiones
+1. Abrir una terminal
+2. Abrir git bash en la terminal en la opcion +
+3. Iniciar git en el proyecto: git init 
+4. Saber el estado de nuestros archivos: git status
+5. git add nombre_de_archivo (cargar un solo archivo) o git add . (carga todos los archivos)
+dfds
+
+Cada vez que se realiza un cambio
+git add .
+git commit -m "bla bla bla"
+git push
