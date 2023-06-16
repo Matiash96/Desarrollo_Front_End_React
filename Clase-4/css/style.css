@@ -1,0 +1,19 @@
+fieldset{
+    border-radius: 10px;
+    background-color: #6554AF;
+}
+input{
+    border-radius: 10px;
+    padding: 5px;
+}
+div{
+    margin: 8px;
+}
+
+button{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
