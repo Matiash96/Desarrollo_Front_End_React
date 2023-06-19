@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap");
+
+nav h1{
+    font-family: 'Coiny', cursive;
+    font-size: 56px;
+    font-weight: normal;
+}
+
+nav ul{
+    font-size: 32px;
+}
+header h1{
+    font-family: 'Roboto';
+    font-size: 64px;
+    font-weight: bold;
+}
+
+header h1 strong {
+    font-family: 'Coiny';
+    font-size: 117px;
+    font-weight: normal;
+}
+
+header h2{
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: normal;
+    background-color: #fcee21;
+}
+
+header p{
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: normal;
+}
+
+header p strong{
+    font-weight: bold;
+}
+
+main div section h3{
+    background-color: #fcee21;
+    font-family: 'Roboto';
+    color: black;
+    font-size: 34px;
+}
+
+main div section p{
+    font-family: 'Roboto';
+    font-size: 28;
+    font-weight: normal;
+}
+
+main div section p strong{
+    font-weight: bold;
+}
+
+.servicios h4{
+    font-family: 'Roboto';
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.servicios ol{
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.ultimo_item{
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #fcee21;
+}
+
+.contactemos h4{
+    font-family: 'Roboto';
+    font-size: 68px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.contactemos p{
+    font-family: 'Roboto';
+    font-size: 44px;
+    font-weight: bold;
+    background-color: #fcee21;
+}
+
+footer{
+    background-color: #fcee21;
+}
+
+footer h1 {
+    font-family: 'Coiny';
+    font-size: 44px;
+    font-weight: 400;
+}
+
+footer h5{
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 400;
+}
