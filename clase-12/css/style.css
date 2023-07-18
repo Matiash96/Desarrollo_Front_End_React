@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-properties{
+    height: 600px;
+    width: 100%;
+    background-color: #f1f1f1;
+    background-image: url("../media/paisaje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: #f1f1f1f1;
+    padding: 150px;
+}
+
+.border-properties{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.border-properties:hover{
+    color: #f1f1f1;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.box-shadow-properties{
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.box-shadow-properties:hover{
+    box-shadow: 0px 0px 10px aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    transition: 1s;
+}
+
+.text-shadow-properties{
+    text-shadow: 2px 2px 4px #d17b7b;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    text-align: center;
+    transition: text-shadow 0.5s filter 0.5s;
+    animation: hover-animation 2s infinite;
+}
+
+.text-shadow-properties:hover{
+    text-shadow: 4px 4px 8px #000000;
+    filter: blur(2px);
+} 
+
+@keyframes hover-animation {
+    0%{
+        text-shadow: 2px 2px 4px #d17b7b;
+        filter: blur(0px);
+    }
+
+    50%{
+        text-shadow: 2px 2px 8px #000000;
+        filter: blur(0px);
+    }
+
+    100%{
+        text-shadow: 2px 2px 4px #d17b7b;
+        filter: blur(0px);
+    }
+}

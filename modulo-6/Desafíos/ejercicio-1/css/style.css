@@ -1,0 +1,62 @@
+@font-face {
+    font-family: fuente1;
+    src: url("../fuentes/Roboto-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url("../fuentes/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: fuente2;
+    src: url("../fuentes/coolvetica.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-family: fuente2;
+    font-size: 120pt;
+    color: #0a2ff1;
+    
+}
+
+button, p{
+    font-family: fuente1;
+    font-size: 40px;
+}
+
+p{
+    font-weight: 300;
+    color: #04146c;
+    margin: 50px 0;
+}
+
+button{
+    font-weight: 400;
+    color: white;
+    border: 3px solid #0a2ff1;
+    background-color: #0a2ff1;
+    display: block;
+    padding: 10px 50px;
+    margin: 30px auto;
+}
+
+
+#btn{
+    color: #04146c;
+    background-color: white;
+}
