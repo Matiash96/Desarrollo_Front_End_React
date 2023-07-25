@@ -10,12 +10,13 @@ header{
     background-color: chocolate;
     padding: 10px;
     margin-bottom: 5px;
+    display: flex;
 }
 
-nav{
+/* nav{
     display: flex;
     justify-content: space-around;
-}
+} */
 
 nav > a{
     color: aliceblue;
@@ -66,6 +67,7 @@ p{
     text-align: center;
     line-height: 1.5em;
 }
+
 footer{
     width: 100%;
     background-color: chocolate;
