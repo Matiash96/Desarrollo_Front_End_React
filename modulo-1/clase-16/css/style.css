@@ -1,0 +1,80 @@
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para el fondo del menú */
+.navbar{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+/* Estilos para el logotipo */
+.navbar-brand{
+    color: rgb(128, 56, 104);
+}
+
+.navbar-brand:hover {
+    color: rgb(128, 56, 104);
+}
+
+/* Estilos para enlaces del menú */
+.navbar-nav .nav-link{
+    color: rgb(93, 5, 93);
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link:hover{
+    color: aliceblue
+}
+
+/* Estilos para el botón de hamburguesa en pantallas pequeñas */
+.navbar-toggler-icon{
+    filter: invert(100%);
+}
+
+/* Estilos para el contenedor del menú */
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Estilos para el botón de menú en pantallas pequeñas */
+.navbar-toggler{
+    display: none;
+}
+
+/* MediaQuery para mostrar el botón de hamburguesa en pantallas pequeñas */
+@media (max-width: 767px){
+    .navbar-toggler{
+        display: block;
+    }
+    .navbar-collapse{
+        display: none;
+    }
+    .navbar-nav{
+        flex-direction: column;
+    }
+    .navbar-collapse.show{
+        display: flex;
+    }
+}
+
+@media (max-width: 992px){
+    .navbar-toggler{
+        display: block;
+    }
+    .navbar-collapse{
+        display: none;
+    }
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .navbar-collapse.show{
+        display: flex;
+    }
+}

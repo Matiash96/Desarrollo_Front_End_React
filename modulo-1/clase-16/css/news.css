@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-table{
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos a la celda de las cabeceras */
+.newsletter-table th{
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+.newsletter-table td{
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.newsletter-table td button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    background-color: #ffffff;
+}
+
+.newsletter-table tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+.newsletter-table tr:hover{
+    background-color: #66696c;
+    color: #f2f2f2;
+}
